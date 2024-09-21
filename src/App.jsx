@@ -8,6 +8,7 @@ function App() {
   return (
     <>
     <h1>Welcome to React</h1>
+    <div className="happy">didn't push an update so i had to scramble</div>
    </>
   )
 }
