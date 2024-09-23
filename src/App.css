@@ -36,11 +36,13 @@
   box-shadow: #61dafbaa;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
+
+/* calculator part */
 
 .card {
   padding: 2em;
@@ -48,4 +50,37 @@
 
 .read-the-docs {
   color: #888;
-} */
+}
+
+
+.calculator {
+  width: 200px;
+  margin: 100px auto;
+}
+
+.display {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  background-color: #282c34;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
