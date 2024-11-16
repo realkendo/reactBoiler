@@ -10,6 +10,9 @@ function Keeper(){
       <Note />
       <Note />
       <Note />
+      <Note />
+      <Note />
+      <Note />
       <Footer />
     </div>
   )
