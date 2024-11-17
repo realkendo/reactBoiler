@@ -11,14 +11,7 @@ function Keeper(){
       <Note />
       <Card name="BiteExpress" img="/images/logo2.png" alt="Brand Logo" type="Delivery Company" email="info@biteexpress.ng" />
       <Footer />
-      <Display />
     </div>
-  )
-}
-
-function Display(){
-  return(
-    <img src="/images/cctv.png" alt="image" />
   )
 }
 

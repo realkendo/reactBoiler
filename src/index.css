@@ -37,6 +37,12 @@
   padding: 10px 10px;
   margin: 5px 5px;
   max-width: 200px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.bcard h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .bcard p{
