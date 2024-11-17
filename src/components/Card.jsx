@@ -1,10 +1,12 @@
-const Card = (props) =>{
+const Card = ({name, img, type, email}) =>{
   return(
     <>
-      <h2>{props.name}</h2>
-      <img src={props.img} alt={props.alt} />
-      <p>{props.type}</p>
-      <p>{props.email}</p>
+    <div className="bcard">
+        <h2>{name}</h2>
+        <img src={img} style={{width:"100px", height:"100px"}} />
+        <p>{type}</p>
+        <p>{email}</p>
+      </div>
     </>
   )
 }
