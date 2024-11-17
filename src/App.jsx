@@ -9,10 +9,9 @@ function Keeper(){
     <div>
       <Header />
       <Note />
-      <Card name="BiteExpress" img="/images/logo2.png" alt="Brand Logo" type="Delivery Company" email="info@biteexpress.ng" />
-      <Card name="Microsoft" img="/images/logo4.png" alt="Brand Logo" type="Tech Company" email="support@microsoft.com" />
-      <Card name="Meta" img="/images/logo3.png" alt="Brand Logo" type="Tech Company" email="info@meta.com" />
-
+      <Card name="Google" img="/images/google.png" alt="Brand Logo" type="Search Engine" email="google.com" />
+      <Card name="Meta" img="/images/meta.png" alt="Brand Logo" type="social media" email="facebbook.com" />
+      {/* <Card name="Microsoft" img="/images/microsoft.png" alt="Brand Logo" type="Operating System" email="microsoft.com" /> */}
       <Footer />
     </div>
   )

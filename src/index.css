@@ -23,10 +23,12 @@
   background: #000;
   color: #caf;
   width: 100%;
+  height: 50px;
   margin-top: 1%;
   text-align: center;
-  position: absolute;
+  position:relative;
   bottom: 0;
+  padding: auto;
 }
 
 .bcard{
@@ -39,6 +41,11 @@
   max-width: 200px;
   border-radius: 10px;
   text-align: center;
+}
+
+.bcard:hover{
+  background-color: #000;
+  color: white;
 }
 
 .bcard h2{
