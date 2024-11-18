@@ -1,4 +1,4 @@
-const Card = ({name, img, type, email}) =>{
+const Card = ({name, img, type, email, colors}) =>{
   return(
     <>
     <div className="bcard">
