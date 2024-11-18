@@ -41,12 +41,13 @@ body{
   display: grid;
   align-items: center;
   justify-content: center;
-  border: 2px solid brown;
   padding: 10px 10px;
   margin: 5px 5px;
   max-width: 200px;
   border-radius: 10px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .bcard:hover{
@@ -55,13 +56,41 @@ body{
 }
 
 .bcard h2{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: jokerman;
 }
 
-.bcard p{
-  font-weight: bolder;
-  color: red;
+.bcard div{
+  font-family: tahoma;
+  font-weight: bold;
+  border-radius: 5px;
 }
+
 .bcard img{
-  size: 300px;
+  width: 200px;
+  height: 150px;
+}
+
+.red{
+  color: red;
+  border: 2px solid red;
+}
+
+.blue{
+  color: blue;
+  border: 2px solid blue;
+}
+
+/* .blue img{
+  width:120px;
+  height: 100px;
+} */
+
+.green{
+  color: darkgreen;
+  border: 2px solid darkgreen;
+}
+
+.orange{
+  color: orange;
+  border: 2px solid orange;
 }

@@ -2,11 +2,13 @@ const Card = ({name, img, type, email, colors}) =>{
   return(
     <>
     <div className="bcard">
+      <div className={colors}>
         <h2>{name}</h2>
-        <img src={img} style={{width:"200px", height:"150px", display: "inline-block"}} />
+        <img src={img}/>
         <p>{type}</p>
         <p>{email}</p>
       </div>
+    </div>
     </>
   )
 }
