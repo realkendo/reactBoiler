@@ -1,18 +1,20 @@
 import Avatar from "./Avatar"
+import Details from "./Details"
 
-const Card = ({name, type, email, colors, img}) =>{
+
+const Card = ({name, type, site, colors, img}) =>{
   return(
     <>
-    <div className="bcard">
-      <div className={colors}>
-        <h2>{name}</h2>
-        <Avatar img={img}/>
-        <p>{type}</p>
-        <p>{email}</p>
+      <div className="bcard">
+        <div className={colors}>
+          <h2>{name}</h2>
+          <Avatar img={img} />
+          <Details type={type} site={site} />
+        </div>
       </div>
-    </div>
     </>
   )
 }
 
-export default Card
+
+export default Card;

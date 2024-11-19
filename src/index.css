@@ -48,11 +48,23 @@ body{
   text-align: center;
   align-items: center;
   justify-content: center;
+  transition: 0.8s ease;
 }
 
 .bcard:hover{
   background-color: #000;
   color: white;
+}
+
+.bcard img{
+  width: 200px;
+  height: 150px;
+  transition: 0.3s ease-in;
+}
+
+.bcard:hover img{
+  width: 210px;
+  height: 160px;
 }
 
 .bcard h2{
@@ -65,10 +77,7 @@ body{
   border-radius: 5px;
 }
 
-.bcard img{
-  width: 200px;
-  height: 150px;
-}
+
 
 .red{
   color: red;
