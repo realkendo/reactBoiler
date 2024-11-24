@@ -8,6 +8,7 @@ import contacts from "./contacts";
 function createCard(contacts){
   return(
     <Card 
+      key={id}
       name={contacts.name} 
       img={contacts.img}  
       type={contacts.type}  
