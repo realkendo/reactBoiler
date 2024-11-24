@@ -5,6 +5,19 @@ import React from "react";
 import Card from "./components/card";
 import contacts from "./contacts";
 
+function createCard(contacts){
+  return(
+    <Card 
+      name={contacts[0].name} 
+      img={contacts[0].img}  
+      type={contacts[0].type}  
+      site={contacts[0].site}  
+      colors={contacts[0].colors}  
+    />
+
+  )
+}
+
 
 function Keeper(){
   return (
