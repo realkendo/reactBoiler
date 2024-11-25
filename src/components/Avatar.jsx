@@ -6,4 +6,5 @@ const Avatar = ({ img }) =>{
   )
 }
 
+
 export default Avatar;

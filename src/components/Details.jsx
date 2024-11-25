@@ -7,4 +7,5 @@ const Details = ({type, site}) =>{
   )
 }
 
+
 export default Details;

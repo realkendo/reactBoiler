@@ -5,6 +5,7 @@ import React from "react";
 import Card from "./components/Card";
 import contacts from "./contacts";
 
+
 function createCard(contacts){
   return(
     <Card 
@@ -16,7 +17,6 @@ function createCard(contacts){
       site={contacts.site}  
       colors={contacts.colors}  
     />
-
   )
 }
 
