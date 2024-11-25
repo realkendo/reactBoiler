@@ -9,6 +9,7 @@ function createCard(contacts){
   return(
     <Card 
       key={contacts.id}
+      num={contacts.id}
       name={contacts.name} 
       img={contacts.img}  
       type={contacts.type}  
