@@ -1,9 +1,13 @@
 import React from "react";
-import Note from "./components/Note";
+// import Note from "./components/Note";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Card from "./components/Card";
+import Emoji from "./components/Emoji";
+
+// objects import
 import contacts from "./contacts";
+import emojis from "./emoji";
 
 
 function createCard(contacts){
@@ -29,7 +33,7 @@ const Keeper = () =>{
           {contacts.map(createCard)}
         </div>
         <hr />
-        <Note />
+        <Emoji />
       <Footer />
     </>
   )
