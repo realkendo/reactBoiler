@@ -2,30 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row; /* Default behavior: elements are in a row */
-
-/* 
-@media screen and (max-width: 768px) {
-  body {
-    display: grid;
-    grid-template-rows: auto; 
-    grid-auto-rows: min-content; 
-  }
-} 
-
-body > * {
-  width: 100%; /* Make child elements span the full width 
-}
 
 
 
-
-/* .header{
+.header{
   background: #000;
   color: #eba;
   width: 100%;
@@ -34,6 +14,7 @@ body > * {
   font-family: Jokerman;
 }
 
+/* 
 .note{
   padding: 10px 10px;
   width: 200px;
@@ -45,8 +26,9 @@ body > * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 1%;
 }
+ */
 
-.footer{
+ .footer{
   background: #000;
   color: #caf;
   width: 100%;
@@ -56,7 +38,7 @@ body > * {
   position:relative;
   bottom: 0;
   padding: auto;
-} */
+} 
 
 
 .bcard{
