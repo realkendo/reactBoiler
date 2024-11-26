@@ -1,5 +1,5 @@
 import React from "react";
-// import Note from "./components/Note";
+import Note from "./components/Note";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Card from "./components/Card";
@@ -28,6 +28,8 @@ const Keeper = () =>{
         <div className="flex items-center justify-center min-h-screen md:flex-row flex-col">  
           {contacts.map(createCard)}
         </div>
+        <hr />
+        <Note />
       <Footer />
     </>
   )

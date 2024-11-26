@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 
-
-
 .header{
   background: #000;
-  color: #eba;
+  color: white;
   width: 100%;
   padding: 1%;
   margin-bottom: 1%;
   font-family: Jokerman;
+  font-size: larger;
+  text-align: center;
 }
 
-/* 
+ 
 .note{
   padding: 10px 10px;
   width: 200px;
@@ -26,11 +26,12 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 1%;
 }
- */
+ 
+
 
  .footer{
   background: #000;
-  color: #caf;
+  color: white;
   width: 100%;
   height: 50px;
   margin-top: 1%;
@@ -97,3 +98,16 @@
   color: orange;
   border: 2px solid orange;
 } 
+
+
+.red:hover ~ .header{
+  color: red;
+}
+
+.green:hover ~ .header{
+  color: green;
+}
+
+.orange:hover ~ .header{
+  color: orange;
+}
