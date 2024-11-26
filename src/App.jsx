@@ -23,7 +23,8 @@ function createCard(contacts){
 
 const Keeper = () =>{
   return (
-    <div style={{display:"flex"}}>
+    // style={{display:"flex"}}
+    <div className="flex items-center justify-center min-h-screen md:flex-row flex-col">  
       {contacts.map(createCard)}
     </div>
   )

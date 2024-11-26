@@ -2,24 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* 
 body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; /* Default behavior: elements are in a row */
-}
+  flex-direction: row; /* Default behavior: elements are in a row */
 
+/* 
 @media screen and (max-width: 768px) {
   body {
     display: grid;
-    grid-template-rows: auto; /* Each element takes up its own row */
-    grid-auto-rows: min-content; /* Adjust row height based on content */
+    grid-template-rows: auto; 
+    grid-auto-rows: min-content; 
   }
-}
+} 
 
 body > * {
-  width: 100%; /* Make child elements span the full width */
+  width: 100%; /* Make child elements span the full width 
 }
 
 
