@@ -32,6 +32,7 @@ function createEmoji(emojipedia){
     <>
       <Entry
         key={emojipedia.id}
+        num={emojipedia.id}
         emoji={emojipedia.emoji}
         name={emojipedia.name}
         meaning={emojipedia.meaning}
@@ -50,8 +51,8 @@ const Keeper = () =>{
         </div>
         <hr />
         <div>
-          <h2>Emojipedia</h2>
-          <div>
+          <h1 className="title">Emojipedia</h1>
+          <div className="flex items-center justify-center">
             {emojipedia.map(createEmoji)}
           </div>
         </div>

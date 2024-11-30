@@ -1,21 +1,21 @@
 const emojipedia = [
   {
-    id:1,
+    id:11,
     emoji: '👍',
     name: 'Thumbs Up',
     meaning: 'A thumbs-up gesture indicating approval.'
   },
   {
-    id:2,
+    id:12,
     emoji: '👌',
     name: 'Okay Hand',
-    meaning: 'Represents “I’m okay” or “yes, that’s correct / good.'
+    meaning: 'Represents I am okay or yes, that is correct / good.'
   },
   {
-    id:3,
+    id:13,
     emoji: '😌',
     name: 'Relieved Face',
-    meaning: 'Conveys various pleasant feelings, including contentment, calm, peace, and relief.'
+    meaning: 'Conveys various pleasant feelings, calm, peace, & relief.'
   },
 ];
 
