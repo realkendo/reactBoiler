@@ -1,4 +1,4 @@
-function Emoji(){
+function Entry(){
   return(
     <>
       <h2>This is an emoji</h2>
@@ -7,4 +7,4 @@ function Emoji(){
 }
 
 
-export default Emoji;
+export default Entry;

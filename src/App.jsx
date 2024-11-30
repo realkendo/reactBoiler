@@ -3,11 +3,11 @@ import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Card from "./components/Card";
-import Emoji from "./components/Emoji";
+import Emoji from "./components/Entry";
 
 // objects import
 import contacts from "./contacts";
-import emojis from "./emoji";
+import emojis from "./emojipedia";
 
 
 function createCard(contacts){
