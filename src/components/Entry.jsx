@@ -1,7 +1,15 @@
-function Entry(){
+function Entry({id, emoji, name, meaning}){
   return(
     <>
-      <h2>This is an emoji</h2>
+      <dl>
+        <div>
+        <dt>
+          <span>{emoji}</span>
+          <span>{name}</span>
+        </dt>
+        <dd>{meaning}</dd>
+        </div>
+      </dl>
     </>
   )
 }

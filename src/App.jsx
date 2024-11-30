@@ -3,13 +3,14 @@ import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Card from "./components/Card";
-import Emoji from "./components/Entry";
+import Entry from "./components/Entry";
 
 // objects import
 import contacts from "./contacts";
-import emojis from "./emojipedia";
+import emojipedia from "./emojipedia";
 
 
+// function to create a contact card 
 function createCard(contacts){
   return(
     <Card 
@@ -25,6 +26,21 @@ function createCard(contacts){
 }
 
 
+// function to create an emoji card
+function createEmoji(emojipedia){
+  return (
+    <>
+      <Entry
+        key={emojipedia.id}
+        emoji={emojipedia.emoji}
+        name={emojipedia.name}
+        meaning={emojipedia.meaning}
+      />
+    </>
+  )
+}
+
+
 const Keeper = () =>{
   return (
     <>
@@ -33,7 +49,12 @@ const Keeper = () =>{
           {contacts.map(createCard)}
         </div>
         <hr />
-        <Emoji />
+        <div>
+          <h2>Emojipedia</h2>
+          <div>
+            {emojipedia.map(createEmoji)}
+          </div>
+        </div>
       <Footer />
     </>
   )
