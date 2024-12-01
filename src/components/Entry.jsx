@@ -1,3 +1,5 @@
+
+
 function Entry({num, emoji, name, meaning}){
   return(
     <>

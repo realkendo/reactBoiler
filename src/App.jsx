@@ -50,16 +50,16 @@ const Keeper = () =>{
     <>
       <Header />
         <div key={uuidv4()}>
-        <div className="flex items-center justify-center min-h-screen md:flex-row flex-col">  
-          {contacts.map(createCard)}
-        </div>
-        <hr />
-        <div>
-          <h1 className="title">Emojipedia</h1>
-          <div className="flex items-center justify-center">
-            {emojipedia.map(createEmoji)}
+          <div className="flex items-center justify-center min-h-screen md:flex-row flex-col">  
+            {contacts.map(createCard)}
           </div>
-        </div>
+          <hr />
+          <div>
+            <h1 className="title">Emojipedia</h1>
+            <div className="flex items-center justify-center">
+              {emojipedia.map(createEmoji)}
+            </div>
+          </div>
         </div>
       <Footer />
     </>
