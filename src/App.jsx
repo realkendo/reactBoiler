@@ -1,4 +1,7 @@
+// library imports
 import React from "react";
+import {v4 as uuidv4} from "uuid";
+
 // import Note from "./components/Note";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -46,6 +49,7 @@ const Keeper = () =>{
   return (
     <>
       <Header />
+        <div key={uuidv4()}>
         <div className="flex items-center justify-center min-h-screen md:flex-row flex-col">  
           {contacts.map(createCard)}
         </div>
@@ -55,6 +59,7 @@ const Keeper = () =>{
           <div className="flex items-center justify-center">
             {emojipedia.map(createEmoji)}
           </div>
+        </div>
         </div>
       <Footer />
     </>
