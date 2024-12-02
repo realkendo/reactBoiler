@@ -14,7 +14,7 @@ const Keeper = () => {
   return (
     <>
       <Header />
-      <div>
+      <div className="flex flex-wrap items-center justify-center gap-4 p-4 bg-gray-100">
         <div className="flex items-center justify-center min-h-screen md:flex-row flex-col">  
           {contacts.map((contact) => (
             <Card 
@@ -30,7 +30,7 @@ const Keeper = () => {
         </div>
         <hr />
         <div>
-          <h1 className="title">Emojipedia</h1>
+          <h1 className="title">Emojipedia 😎</h1>
           <div className="flex items-center justify-center">
             {emojipedia.map((emoji) => (
               <Entry
