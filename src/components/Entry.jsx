@@ -7,12 +7,12 @@ function Entry({num, emoji, name, meaning}){
         <div className="bg-white shadow-lg rounded-lg p-4 b-5 w-64 text-center transform transition-transform hover:scale-105">
         <dt>
           {num+'. '}
-          <span>{emoji}</span>
+          <span className="text-6xl mb-2 block">{emoji}</span>
         </dt>
         <dt>
-          <span>{name}</span>
+          <span className="text-xl font-semibold text-gray-800">{name}</span>
         </dt>
-        <dd>{meaning}</dd>
+        <dd className="text-sm text-gray-600 mt-2">{meaning}</dd>
         </div>
       </dl>
     </>
