@@ -17,6 +17,24 @@ const emojipedia = [
     name: 'Relieved Face',
     meaning: 'Conveys various pleasant feelings, calm, peace, & relief.'
   },
+  {
+    id:14,
+    emoji: '🤑',
+    name: 'Money-Mouth Face',
+    meaning: 'Used for a wide range of content dealing with money'
+  },
+  {
+    id:15,
+    emoji: '😴',
+    name: 'Sleeping Face',
+    meaning: 'A face with eyes closed and Zzz’s to indicate it\'s sound asleep.',
+  },
+  {
+    id:16,
+    emoji: '😘',
+    name: 'Face Blowing a Kiss',
+    meaning: ' May represent a kiss goodbye to convey feelings of love '
+  },
 ];
 
 
