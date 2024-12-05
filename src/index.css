@@ -99,7 +99,7 @@
   border: 2px solid orange;
 } 
 
-
+/* 
 .red:hover ~ .header{
   color: red;
 }
@@ -110,7 +110,7 @@
 
 .orange:hover ~ .header{
   color: orange;
-}
+} */
 
 /* emoji styles */
 
