@@ -56,4 +56,10 @@ const Keeper = () => {
 };
 
 
+
+// truncating the meaning to a maximum of 10 characters
+const newMeaning = emojipedia.map((entryArray) => entryArray.meaning.substring(0,10))
+console.log(newMeaning);
+
+
 export default Keeper;
