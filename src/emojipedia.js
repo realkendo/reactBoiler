@@ -52,13 +52,7 @@ const emojipedia = [
   emoji: '😴',
   name: 'Sleeping Face',
   meaning: 'A face with eyes closed and Zzz’s to indicate it\'s sound asleep.',
-},
-{
-  id:16,
-  emoji: '😘',
-  name: 'Face Blowing a Kiss',
-  meaning: ' May represent a kiss goodbye to convey feelings of love '
-},
+}
 ];
 
 
