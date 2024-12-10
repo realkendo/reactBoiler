@@ -45,13 +45,13 @@ const emojipedia = [
   id:18,
   emoji: '🎂',
   name: 'Birthday Cake',
-  meaning: 'Dessert mostly used for celebratory purposes'
+  meaning: 'Dessert mostly used for celebrations'
 },
 {
   id:19,
   emoji: '🍔',
   name: 'Hamburger',
-  meaning: 'Fast Food.',
+  meaning: 'American Fast Food.',
 }
 ];
 
